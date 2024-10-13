@@ -20,16 +20,12 @@ This is a simple authentication API built with FastAPI and SQLModel.
 1. Clone the repository:
 
 2. Create and activate a virtual environment:
-   ```bash
    python -m venv venv
    # On Windows
    venv\Scripts\activate
-   ```bash
 
 3. Install the required packages:
-   ``` bash
    pip install -r requirements.txt
-   ```bash
 
 ## Usage
 
