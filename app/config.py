@@ -1,13 +1,16 @@
+# app/config.py
 from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     secret_key: str
-    token_expire_minutes: int = 129600
- 
+    database_url: str
+    access_token_expire_minutes: int = 30
+
     class Config:
         env_file = ".env"
 
 settings = Settings()
+
 # Import BaseSettings from Pydantic for settings management
 
 # Define a Settings class that inherits from BaseSettings

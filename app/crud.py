@@ -1,3 +1,4 @@
+# app/crud.py
 from sqlmodel import Session, select
 from app.models import User
 
@@ -10,6 +11,7 @@ def create_user(session: Session, user: User):
     session.commit()
     session.refresh(user)
     return user
+
 
 # Import Session and select from SQLModel
 # Import the User model from app.models
