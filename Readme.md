@@ -24,13 +24,18 @@ This is a simple authentication API built with FastAPI and SQLModel.
    ```
 
 2. Create and activate a virtual environment:
+   ```bash
    python -m venv venv
    # On Windows
    venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
    ```
 
 3. Install the required packages:
+   ```bash
    pip install -r requirements.txt
+   ```
 
 ## Usage
 
