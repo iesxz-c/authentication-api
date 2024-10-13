@@ -18,11 +18,16 @@ This is a simple authentication API built with FastAPI and SQLModel.
 ## Installation
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/akashkrishnan02/authentication-api.git
+   cd authentication-api
+   ```
 
 2. Create and activate a virtual environment:
    python -m venv venv
    # On Windows
    venv\Scripts\activate
+   ```
 
 3. Install the required packages:
    pip install -r requirements.txt
