@@ -95,13 +95,6 @@ Access the API at `http://127.0.0.1:8000`.
       }
       ```
 
-## Deployment
-
-You can access the deployed FastAPI authentication API at:
-
-[https://web-production-fa4fe.up.railway.app](https://web-production-fa4fe.up.railway.app)
-
-
 ## Contributing
 
 Feel free to open issues or submit pull requests!
